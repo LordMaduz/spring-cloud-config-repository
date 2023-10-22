@@ -35,4 +35,4 @@ notification:
   profile: STAGE
   type: EMAIL
   port: 8000
-  userName: Test
+  userName: Test-Edited
