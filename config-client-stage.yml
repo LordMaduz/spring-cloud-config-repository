@@ -1,0 +1,39 @@
+server:
+  port: 9080
+spring:
+  cloud:
+    bus:
+      enabled: true
+      destination: spring_cloud_config_channel
+    stream:
+      kafka:
+        binder:
+          autoCreateTopics: false
+          brokers: localhost:9095
+          consumer-properties:
+            allow:
+              auto:
+                create:
+                  topics: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, busrefresh, bus-env, reresh, env
+  endpoint:
+    info:
+      enabled: true
+    health:
+      enabled: true
+
+logging:
+  level:
+    ROOT: WARN
+    com.example.demo.*: info
+
+
+notification:
+  type: EMAIL
+  port: 8000
+  userName: Test
