@@ -7,7 +7,6 @@ spring:
       kafka:
         binder:
           autoCreateTopics: false
-          zkNodes: localhost:2181
           brokers: localhost:9095
           consumer-properties:
             allow:
