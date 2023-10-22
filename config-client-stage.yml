@@ -34,5 +34,5 @@ logging:
 notification:
   profile: STAGE
   type: EMAIL
-  port: 8080
+  port: 8090
   userName: Test
