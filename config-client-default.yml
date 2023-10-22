@@ -32,6 +32,7 @@ logging:
 
 
 notification:
+  profile: DEFAULT
   type: EMAIL
   port: 8000
   userName: Test
