@@ -34,5 +34,5 @@ logging:
 notification:
   profile: STAGE
   type: EMAIL
-  port: 8000
-  userName: Test-Edited
+  port: 100
+  userName: Test
