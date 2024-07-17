@@ -20,7 +20,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: health, busrefresh, bus-env, reresh, env, trace
+        include: health, busrefresh, bus-env, refresh, env, trace
   endpoint:
     info:
       enabled: true
